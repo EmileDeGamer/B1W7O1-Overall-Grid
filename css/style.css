@@ -1,16 +1,23 @@
-body{
-    margin: 0px;
-    padding: 0px;
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 .container-grid{
     display: grid;
+    grid-template-columns: repeat(48, 1fr);
+    grid-template-rows: repeat(48, 1fr);
+    width: 100vw;
+    height: 100vh;
 }
 
 .menu{
     background: rgb(223, 223, 223);
     border-top: 5px solid rgb(46, 46, 66);
     border-bottom: 5px solid rgb(33, 96, 117);
+    grid-column: span 48;
+    grid-row: span 1;
 }
 
 img{
@@ -30,4 +37,36 @@ a{
     top:-45%;
     padding-right: 25px;
     position: relative;
+    grid-column: span 48;
+    grid-row: 2;
+}
+
+.banner{
+    background: rgb(23, 23, 73);
+    border-bottom: 50px solid black;
+    grid-column: span 48;
+    grid-row: 2;
+    display:grid;
+}
+
+.banner-title{
+    color: white;
+    grid-column: 2 / 48;
+    grid-row: 1 / 48;
+    padding-top: 50px;
+}
+
+.banner-text{
+    color: white;
+    padding-top: 100px;
+    grid-column: 2 / 48;
+    grid-row: 1 / 48;
+    padding-right: 25px;
+}
+
+.banner-img{
+    padding: 10px 30px;
+    padding-right: 10px;
+    grid-column: 1;
+    grid-row: 1 / 48;
 }
