@@ -1,0 +1,33 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container-grid{
+    display: grid;
+}
+
+.menu{
+    background: rgb(223, 223, 223);
+    border-top: 5px solid rgb(46, 46, 66);
+    border-bottom: 5px solid rgb(33, 96, 117);
+}
+
+img{
+    padding-top: 20px;
+    padding-left: 20px;
+    top:50%;
+}
+
+a{
+    color: #032b38;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+.buttons{
+    text-align: right;
+    top:-45%;
+    padding-right: 25px;
+    position: relative;
+}
