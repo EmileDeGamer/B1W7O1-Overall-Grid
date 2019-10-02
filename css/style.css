@@ -133,3 +133,93 @@ h2{
     font-size: 20px;
     line-height: 22px;
 }
+
+.autos{
+    display: grid;
+    grid-column: span 48;
+    grid-row: 2;
+    text-align: center;
+    background: rgb(85, 126, 173);
+}
+
+.auto1{
+    margin-left: 50%;
+    width: 50%;
+    grid-column: span 1;
+    grid-row: 2 / 48;
+}
+
+.auto1-title{
+    font-size: 20px;
+    line-height: 22px;
+}
+
+.auto1-text{
+
+}
+
+.auto1-img{
+    width:100%;
+}
+
+.auto2{
+    margin: 0px 25%;
+    width: 50%;
+    grid-column: span 1;
+    grid-row: 2 / 48;
+}
+
+.auto2-title{
+    font-size: 20px;
+    line-height: 22px;
+}
+
+.auto2-text{
+
+}
+
+.auto2-img{
+    width:100%;
+}
+
+.auto3{
+    margin-right: 50px;
+    padding-right:50px;
+    width: 50%;
+    grid-column: span 1;
+    grid-row: 2 / 48;
+}
+
+.auto3-title{
+    font-size: 20px;
+    line-height: 22px;
+}
+
+.auto3-text{
+
+}
+
+.auto3-img{
+    width:100%;
+}
+
+.title{
+    padding: 10px 0px;
+    grid-column: span 48;
+    grid-row: 1;
+    line-height: 30px;
+    font-size: 26px;
+    background: lightblue;
+}
+
+.body{
+    background: rgb(85, 126, 173);
+}
+
+.kleding{
+    display: grid;
+    grid-column: span 48;
+    grid-row: 2;
+    text-align: center;
+    background: rgb(85, 126, 173);
+}
