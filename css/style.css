@@ -1,5 +1,4 @@
 *{
-    box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
@@ -17,10 +16,10 @@
     border-top: 5px solid rgb(46, 46, 66);
     border-bottom: 5px solid rgb(33, 96, 117);
     grid-column: span 48;
-    grid-row: span 1;
+    grid-row: 1;
 }
 
-img{
+.logo{
     padding-top: 20px;
     padding-left: 20px;
     top:50%;
@@ -51,7 +50,7 @@ a{
 
 .banner-title{
     color: white;
-    grid-column: 2 / 48;
+    grid-column: 2;
     grid-row: 1 / 48;
     padding-top: 50px;
 }
@@ -59,7 +58,7 @@ a{
 .banner-text{
     color: white;
     padding-top: 100px;
-    grid-column: 2 / 48;
+    grid-column: 2;
     grid-row: 1 / 48;
     padding-right: 25px;
 }
@@ -68,5 +67,29 @@ a{
     padding: 10px 30px;
     padding-right: 10px;
     grid-column: 1;
+    grid-row: 1 / 48;
+}
+
+.info{
+    grid-column: span 48;
+    grid-row: 3;
+    display: grid;
+}
+
+.slider1{
+    margin-left: 450px;
+    grid-column: 1;
+    grid-row: 1 / 48;
+}
+
+.slider2{
+    margin: 0px 100px;
+    grid-column: 2;
+    grid-row: 1 / 48;
+}
+
+.slider3{
+    padding-right:500px;
+    grid-column: 3;
     grid-row: 1 / 48;
 }
