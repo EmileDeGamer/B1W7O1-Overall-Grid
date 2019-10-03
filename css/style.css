@@ -223,3 +223,64 @@ h2{
     text-align: center;
     background: rgb(85, 126, 173);
 }
+
+.kleding1{
+    margin-left: 50%;
+    width: 50%;
+    grid-column: span 1;
+    grid-row: 2 / 48;
+}
+
+.kleding1-img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.kleding1-text{
+
+}
+
+.kleding1-title{
+
+}
+
+.kleding2{
+    margin: 0px 25%;
+    width: 50%;
+    grid-column: span 1;
+    grid-row: 2 / 48;
+}
+
+.kleding2-img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.kleding2-title{
+
+}
+
+.kleding2-text{
+
+}
+
+.kleding3{
+    margin-right: 50px;
+    padding-right:50px;
+    width: 50%;
+    grid-column: span 1;
+    grid-row: 2 / 48;
+}
+
+.kleding3-img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.kleding3-title{
+
+}
+
+.kleding3-text{
+
+}
